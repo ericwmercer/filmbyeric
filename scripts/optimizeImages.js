@@ -5,6 +5,8 @@ import imagemin from 'imagemin';
 import imageminMozjpeg from 'imagemin-mozjpeg';
 import { exit } from 'process';
 
+const DEFAULT_QUALITY = 30;
+
 /**
  * @param {string} inputPath
  * @param {string} outputPath
@@ -45,7 +47,7 @@ function optimizeImages(inputPath, outputPath, qualityOverride) {
       plugins: [
         imageminMozjpeg({
           progressive: true,
-          quality: qualityOverride ?? 60
+          quality: qualityOverride ?? DEFAULT_QUALITY
         }),
       ]
     }
@@ -54,8 +56,8 @@ function optimizeImages(inputPath, outputPath, qualityOverride) {
 
 try {
   const [imageDir, quality] = process.argv.slice(2);
-  const inputPath = `images/${imageDir}/film`;
-  const outputPath = `images/${imageDir}`;
+  const inputPath = `dist/images/${imageDir}/film`;
+  const outputPath = `dist/images/${imageDir}`;
   const qualityOverride = !!quality ? Number(quality) : undefined;
 
   validateArgs(inputPath, outputPath, qualityOverride);
