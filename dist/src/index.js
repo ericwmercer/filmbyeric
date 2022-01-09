@@ -353,16 +353,21 @@ const AboutPage = {
             </div>
           </div>
           <div class="aboutBio">
-            Hi, I'm Eric. I'm a Seattle-based photographer trying my hand at shooting film.
-            <br><br>
-            With film, I find it easier to balance taking photos with being fully present in the moment.
-            A film roll only holds space for a few photos, inspiring equal bouts of spontaneity and careful deliberation.
-            Line up a shot, release the shutter, and move on. There is no pause to review; the film won't be developed until days or weeks later.
-            Maybe the scene was captured, maybe it was lost. Either way, the moment is still here to be experienced.
-            <br><br>
-            In my free time, I enjoy brewing espresso, traveling, and hiking with my partner Erika.
-            <br><br>
-            All photos are unedited from the original film scans.
+            <p>
+              Hi, I'm Eric. I'm a Seattle-based photographer trying my hand at shooting film.
+            </p>
+            <p>
+              With film, I find it easier to balance taking photos with being fully present in the moment.
+              A film roll only holds space for a few photos, inspiring equal bouts of spontaneity and careful deliberation.
+              Line up a shot, release the shutter, and move on. There is no pause to review; the film won't be developed until days or weeks later.
+              Maybe the scene was captured, maybe it was lost. Either way, the moment is still here to be experienced.
+            </p>
+            <p>
+              In my free time, I enjoy brewing espresso, traveling, and hiking with my partner Erika.
+            </p>
+            <p>
+              All photos are unedited from the original film scans.
+            </p>
           </div>
         </div>
       </main>
