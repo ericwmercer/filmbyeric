@@ -318,8 +318,25 @@ Vue.component('directory-list', {
 /// PAGES ///
 
 const AboutPage = {
+  /** @returns {PageData} */
+  data() {
+    return {
+      loading: true,
+      error: null,
+    };
+  },
+  methods: {
+    /** @this {PageData & VueComponent} */
+    handleLoad() {
+      this.loading = false;
+    },
+    /** @this {PageData & VueComponent} */
+    handleError() {
+      this.error = 'Photo failed to load.'
+    }
+  },
   template: `
-    <page-container>
+    <page-container :loading="loading" :error="error">
       <div slot="content">
         <page-title title="About" />
         <div class="aboutContainer">
@@ -328,6 +345,8 @@ const AboutPage = {
               src="/images/about/scan48439.jpg"
               alt="Eric Mercer looking to the side at Joshua Tree National Park while holding a Fuji Natura Classica film camera"
               class="aboutPhotoImage"
+              @load="handleLoad"
+              @error="handleError"
             />
             <div class="aboutPhotoCredit">
               Photo by <a href="https://erikaoutsider.com/" target="_blank">Erika Johnson</a>
