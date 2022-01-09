@@ -1,0 +1,23 @@
+{
+  "name": "candlelight",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://filmbyeric.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericwmercer/candlelight"
+  },
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "live-server": "^1.2.1",
+    "netlify-cli": "^8.6.12"
+  },
+  "scripts": {
+    "live": "cd dist && live-server --entry-file=index.html --no-browser",
+    "static": "netlify dev",
+    "images": "node scripts/optimizeImages.js"
+  }
+}

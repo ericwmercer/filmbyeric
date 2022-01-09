@@ -1,0 +1,44 @@
+{
+  "id": "2020-10-cascades",
+  "title": "North Cascades National Park",
+  "date": "October 2020",
+  "camera": "Fuji Natura Classica 35mm",
+  "film": "Fuji Pro 400H",
+  "photos": [
+    {
+      "src": "/images/2020-10-cascades/Scan47943.jpg",
+      "type": "landscape",
+      "alt": "Small elevated road crossing a lake, as viewed from a nearby beach"
+    },
+    {
+      "src": "/images/2020-10-cascades/Scan47942.jpg",
+      "type": "landscape",
+      "alt": "Foggy, forest-covered hill across a lake"
+    },
+    {
+      "src": "/images/2020-10-cascades/Scan47941.jpg",
+      "type": "portrait",
+      "alt": "Woman in rain-blue raincoat sitting on the side of a dock, swinging her boots over the water"
+    },
+    {
+      "src": "/images/2020-10-cascades/Scan47933.jpg",
+      "type": "landscape",
+      "alt": "Forest growth surrounding a green-blue lake below foggy skies"
+    },
+    {
+      "src": "/images/2020-10-cascades/Scan47932.jpg",
+      "type": "landscape",
+      "alt": "Fog coating a green-blue lake surrounded by hills, as viewed from an elevated lookout point"
+    },
+    {
+      "src": "/images/2020-10-cascades/Scan47923.jpg",
+      "type": "landscape",
+      "alt": "Striking snowy mountain visible across a lake, with an impressionist-style water reflection"
+    },
+    {
+      "src": "/images/2020-10-cascades/Scan47922.jpg",
+      "type": "portrait",
+      "alt": "Woman sitting on a distant rock bridge overlooking a small stream, backdropped by snow-topped mountains"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /data/
+Disallow: /favicons/
+Disallow: /images/
+Disallow: /src/
