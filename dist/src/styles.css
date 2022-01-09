@@ -316,8 +316,13 @@ a.pageHeaderBrand {
     padding: 0 64px;
   }
 
-  .photoItem {
+  .photoItem, .photoItemImagePortrait, .photoItemImageLandscape {
     height: unset;
+    width: 100%;
+  }
+
+  .photoItemImageOutline {
+    border: none;
   }
 
   .aboutContainer {
@@ -348,6 +353,12 @@ a.pageHeaderBrand {
   .pageHeaderNav {
     grid-row: 2;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) and (max-height: 780px) {
+  .pageHeader {
+    position: relative;
   }
 }
 
