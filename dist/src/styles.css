@@ -294,7 +294,7 @@ a.pageHeaderBrand {
     --photo-collection-cols: 2;
   }
 
-  .photoCollection > *:last-child:nth-child(2n-1) {
+  .photoCollection > *:last-child:nth-child(3n-2) {
     grid-column-end: unset;
   }
 }
@@ -313,10 +313,6 @@ a.pageHeaderBrand {
 
   .pageContainer {
     padding: 0 64px;
-  }
-
-  .photoCollection > *:last-child:nth-child(1) {
-    grid-column-end: unset;
   }
 
   .photoItem {
