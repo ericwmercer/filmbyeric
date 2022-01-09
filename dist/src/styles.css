@@ -1,5 +1,11 @@
 :root {
   --maxwidth-page: 1680px;
+  --padding-page: 0 calc(0.5 * (
+      var(--maxwidth-page) - 
+      var(--photo-collection-cols) * var(--photo-large) -
+      (var(--photo-collection-cols) - 1) * var(--photo-collection-gap)
+    )
+  );
 
   --color-page: floralwhite;
   --color-text: #333;
@@ -96,13 +102,7 @@ a.linkWrapper {
   min-height: 100%;
   max-width: var(--maxwidth-page);
   box-sizing: border-box;
-  padding: 0
-    calc(0.5 * (
-        var(--maxwidth-page) - 
-        var(--photo-collection-cols) * var(--photo-large) -
-        (var(--photo-collection-cols) - 1) * var(--photo-collection-gap)
-      )
-    );
+  padding: var(--padding-page);
   margin: auto;
 }
 
@@ -321,12 +321,10 @@ a.pageHeaderBrand {
 
 @media screen and (max-width: 981px) {
   :root {
+    --padding-page: 0 64px;
     --directory-cols: 1;
     --photo-collection-cols: 1;
-  }
-
-  .pageContainer {
-    padding: 0 64px;
+    --photo-collection-gap: 64px;
   }
 
   .photoItem, .photoItemImagePortrait, .photoItemImageLandscape {
@@ -377,13 +375,11 @@ a.pageHeaderBrand {
 
 @media screen and (max-width: 519px) {
   :root {
+    --padding-page: 0 16px;
     --photo-xlarge: 432px;
     --photo-large: 288px;
     --photo-small: 192px;
-  }
-
-  .pageContainer {
-    padding: 0 16px;
+    --photo-collection-gap: 16px;
   }
 
   .aboutContainer {
