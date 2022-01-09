@@ -136,7 +136,7 @@ a.linkWrapper {
 
 .pageHeader a {
   font-family: var(--fontfamily-brand);
-  font-weight: var(--fontfamily-brand);
+  font-weight: var(--fontweight-brand);
 }
 
 .pageHeaderNav > * {
