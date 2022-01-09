@@ -44,6 +44,7 @@ html, body, #app {
   padding: 0;
 
   text-rendering: optimizeLegibility;
+  font-kerning: normal;
   font-family: var(--fontfamily-body);
   font-weight: var(--fontweight-body);
   font-size: var(--fontsize-body);
