@@ -182,6 +182,7 @@ a.pageHeaderBrand {
 .directoryListItemPhoto {
   inset: 4px;
   padding: 16px 16px 0;
+  width: var(--photo-small);
 }
 
 .directoryListItemCaption {
@@ -191,7 +192,7 @@ a.pageHeaderBrand {
   justify-content: center;
   text-align: center;
   height: 72px;
-  width: 100%;
+  width: var(--photo-small);
   padding: 0 16px;
   box-sizing: border-box;
 }
