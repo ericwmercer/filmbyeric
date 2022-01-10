@@ -1,12 +1,39 @@
-[build]
-  base = "/"
-  publish = "dist/"
+# DEVELOPMENT
 
 [dev]
   framework = "#static"
   port = 8888
   publish = "dist/"
   autoLaunch = true
+
+# DEPLOYMENT
+
+[build]
+  base = "/"
+  publish = "dist/"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = false
+  minify = false
+[build.processing.js]
+  bundle = false
+  minify = false
+[build.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = false
+
+[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+    buildDir = "dist/"
+    prettyURLs = true
+    trailingSlash = false
+
+# RUNTIME
 
 [[redirects]]
   from = "/*"
