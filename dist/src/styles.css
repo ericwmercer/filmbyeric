@@ -275,7 +275,13 @@ a.pageHeaderBrand {
   gap: 64px;
 }
 
-.aboutPhoto, .aboutPhotoImage {
+.aboutPhoto {
+  min-width: var(--photo-small);
+  width: var(--photo-small);
+}
+
+.aboutPhotoImage {
+  object-fit: fill;
   min-height: var(--photo-large);
   height: var(--photo-large);
   min-width: var(--photo-small);
@@ -289,10 +295,6 @@ a.pageHeaderBrand {
 
 .aboutPhotoCredit a {
   border-bottom: var(--border-thin);
-}
-
-.aboutPhotoImage {
-  object-fit: fill;
 }
 
 .aboutBio {
@@ -386,7 +388,12 @@ a.pageHeaderBrand {
     width: var(--photo-large);
   }
 
-  .aboutPhoto, .aboutPhotoImage {
+  .aboutPhoto {
+    min-width: var(--photo-large);
+    width: var(--photo-large);
+  }
+
+  .aboutPhotoImage {
     min-height: var(----photo-xlarge);
     height: var(--photo-xlarge);
     min-width: var(--photo-large);
