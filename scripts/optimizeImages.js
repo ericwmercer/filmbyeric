@@ -16,7 +16,7 @@ function validateArgs(inputPath, outputPath, qualityOverride) {
   if (fs.existsSync(inputPath) && fs.existsSync(outputPath)) {
     console.log(`Input dir:\t${inputPath}`);
   } else {
-    throw new Error(`Directory not found: ${imageDirPath}`);
+    throw new Error(`Directory not found: ${inputPath}`);
   }
 
   if (qualityOverride != undefined) {
