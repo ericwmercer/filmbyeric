@@ -1,29 +1,36 @@
 {
   "collections": [
     {
+      "id": "2022-05-whidbey",
+      "title": "Whidbey Island 05.22",
+      "cover": {
+        "src": "/images/2022-05-whidbey/Scan65064.jpg"
+      }
+    },
+    {
       "id": "2020-10-cascades",
-      "title": "North Cascades National Park",
+      "title": "North Cascades NP 10.20",
       "cover": {
         "src": "/images/2020-10-cascades/Scan47941.jpg"
       }
     },
     {
       "id": "2020-08-whidbey",
-      "title": "Whidbey Island",
+      "title": "Whidbey Island 08.20",
       "cover": {
         "src": "/images/2020-08-whidbey/Scan47929.jpg"
       }
     },
     {
       "id": "2020-05-olympic",
-      "title": "Olympic National Park",
+      "title": "Olympic NP 05.20",
       "cover": {
         "src": "/images/2020-05-olympic/Scan47952.jpg"
       }
     },
     {
       "id": "2020-02-socal",
-      "title": "Southern California",
+      "title": "Southern California 02.20",
       "cover": {
         "src": "/images/2020-02-socal/Scan47987.jpg"
       }
