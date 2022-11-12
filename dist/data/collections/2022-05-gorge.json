@@ -1,0 +1,44 @@
+{
+  "id": "2022-05-gorge",
+  "title": "Columbia River Gorge",
+  "date": "May 2022",
+  "camera": "Fuji Natura Classica 35mm",
+  "film": "Kodak 400 TMAX + Kodak ColorPlus 200",
+  "photos": [
+    {
+      "src": "/images/2022-05-gorge/Scan65070.jpg",
+      "type": "landscape",
+      "alt": "Windy road in a horseshoe shape cutting through a rugged hilly landscape"
+    },
+    {
+      "src": "/images/2022-05-gorge/Scan65072.jpg",
+      "type": "landscape",
+      "alt": "Elevated view of the Columbia River Gorge with a narrow highway tracing the near shoreline"
+    },
+    {
+      "src": "/images/2022-05-gorge/Scan65073.jpg",
+      "type": "landscape",
+      "alt": "Truss bridge in the distance stretching across the gorge"
+    },
+    {
+      "src": "/images/2022-05-gorge/Scan65077.jpg",
+      "type": "landscape",
+      "alt": "River descending through a series of rocky ledges in a dense forest"
+    },
+    {
+      "src": "/images/2022-05-gorge/Scan65078.jpg",
+      "type": "portrait",
+      "alt": "Light falling on a thundering waterfall in the distance, as viewed from low foliage"
+    },
+    {
+      "src": "/images/2022-05-gorge/Scan64574.jpg",
+      "type": "portrait",
+      "alt": "Small waterfall amid mossy rocks and tree leaves"
+    },
+    {
+      "src": "/images/2022-05-gorge/Scan64573.jpg",
+      "type": "portrait",
+      "alt": "Small arch bridge extending across the middle of a towering multi-drop waterfall"
+    }
+  ]
+}

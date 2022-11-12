@@ -1,0 +1,34 @@
+{
+  "id": "2022-09-norcal",
+  "title": "Northern California",
+  "date": "September 2022",
+  "camera": "Fuji Natura Classica 35mm",
+  "film": "Kodak ColorPlus 200",
+  "photos": [
+    {
+      "src": "/images/2022-09-norcal/Scan64544.jpg",
+      "type": "landscape",
+      "alt": "Dirt path amid rugged vegetation stretching around a corner, overlooking a foggy bay"
+    },
+    {
+      "src": "/images/2022-09-norcal/Scan64543.jpg",
+      "type": "landscape",
+      "alt": "Rocky coastal cliff with scattered green and red vegetation above the Pacific ocean"
+    },
+    {
+      "src": "/images/2022-09-norcal/Scan64542.jpg",
+      "type": "landscape",
+      "alt": "Mixed red and green scrub on a coastal cliff overlooking a foggy Pacific Ocean"
+    },
+    {
+      "src": "/images/2022-09-norcal/Scan64541.jpg",
+      "type": "landscape",
+      "alt": "Coastal bluff descending to a rocky shoreline and ocean waves"
+    },
+    {
+      "src": "/images/2022-09-norcal/Scan64540.jpg",
+      "type": "landscape",
+      "alt": "Distant rocks scattered in the ocean spotted from a coastal trail"
+    }
+  ]
+}
