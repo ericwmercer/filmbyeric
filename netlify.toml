@@ -49,7 +49,7 @@ package = "@netlify/plugin-sitemap"
       no-cache,
       must-revalidate
     """
-    Content-Security-Policy = "default-src 'none'; connect-src 'self'; font-src *.typekit.net; img-src 'self'; manifest-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net/npm/vue@2.6.12 https://unpkg.com/vue-router@2.0.0/dist/vue-router.min.js https://plausible.io/js/script.js; style-src 'self' *.typekit.net; base-uri 'self'; form-action 'none'; upgrade-insecure-requests;"
+    Content-Security-Policy = "default-src 'none'; connect-src 'self' plausible.io; font-src *.typekit.net; img-src 'self'; manifest-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net/npm/vue@2.6.12 https://unpkg.com/vue-router@2.0.0/dist/vue-router.min.js https://plausible.io/js/script.js; style-src 'self' *.typekit.net; base-uri 'self'; form-action 'none'; upgrade-insecure-requests;"
     Cross-Origin-Embedder-Policy = "require-corp"
     Cross-Origin-Resource-Policy = "same-origin"
     Cross-Origin-Opener-Policy = "same-origin"
