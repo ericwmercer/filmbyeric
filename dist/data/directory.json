@@ -1,17 +1,17 @@
 {
   "collections": [
     {
-      "id": "2022-09-rainier",
-      "title": "Mount Rainier NP 09.22",
-      "cover": {
-        "src": "/images/2022-09-rainier/Scan64562.jpg"
-      }
-    },
-    {
       "id": "2022-09-norcal",
       "title": "Northern California 09.22",
       "cover": {
         "src": "/images/2022-09-norcal/Scan64543.jpg"
+      }
+    },
+    {
+      "id": "2022-09-rainier",
+      "title": "Mount Rainier NP 09.22",
+      "cover": {
+        "src": "/images/2022-09-rainier/Scan64562.jpg"
       }
     },
     {
