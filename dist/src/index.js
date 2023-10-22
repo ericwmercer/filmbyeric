@@ -116,7 +116,19 @@ async function fetchJsonData(requestUri) {
  * @returns {string}
  */
 function aggregateErrors(...errors) {
-  return errors.filter(error => !!error).join('; ');
+  return Array.from(new Set(errors.filter(error => !!error))).join('; ');
+}
+
+/**
+ * @param {string} collectionId 
+ * @param {string} photoSrc 
+ * @returns {string | undefined}
+ */
+function generatePhotoItemSrc(collectionId, photoSrc) {
+  if (!collectionId || !photoSrc) {
+    return undefined;
+  }
+  return `/images/${collectionId}/${photoSrc}`;
 }
 
 /// LAYOUT ///
@@ -241,7 +253,7 @@ Vue.component('photo-item', {
 
 Vue.component('photo-collection', {
   /** @type {Array<keyof PhotoCollectionProps>} */
-  props: ['photos'],
+  props: ['collectionId', 'photos'],
   /** @returns {PhotoCollectionData} */
   data() {
     return {
@@ -267,7 +279,7 @@ Vue.component('photo-collection', {
         v-for="p in photos"
         v-once
         :key="p.src"
-        :src="p.src"
+        :src="generatePhotoItemSrc(collectionId, p.src)"
         :alt="p.alt"
         :type="p.type"
         @photoLoaded="handlePhotoLoaded"
@@ -288,7 +300,7 @@ Vue.component('directory-list-item', {
     >
       <div class="directoryListItemPhoto">
         <photo-item
-          :src="collection.cover.src"
+          :src="generatePhotoItemSrc(this.collection?.id, this.collection?.cover.src)"
           alt=""
           type="cover"
         />
@@ -485,6 +497,7 @@ const CollectionPage = {
           :subtitle="pageSubtitle"
         />
         <photo-collection
+          :collectionId="this.collection.id"
           :photos="this.collection.photos"
           @collectionLoaded="handleCollectionLoaded"
           @collectionError="handleCollectionError"

@@ -6,22 +6,22 @@
   "film": "Fuji Pro 400H",
   "photos": [
     {
-      "src": "/images/2020-05-olympic/Scan47952.jpg",
+      "src": "Scan47952.jpg",
       "type": "portrait",
       "alt": "Waterfall streaming down a rocky wall amid vibrant green growth"
     },
     {
-      "src": "/images/2020-05-olympic/Scan47950.jpg",
+      "src": "Scan47950.jpg",
       "type": "landscape",
       "alt": "Rainbow above a lake, spotted from the roadside"
     },
     {
-      "src": "/images/2020-05-olympic/Scan47946.jpg",
+      "src": "Scan47946.jpg",
       "type": "landscape",
       "alt": "Rolling hills on the far side of the lake"
     },
     {
-      "src": "/images/2020-05-olympic/Scan47945.jpg",
+      "src": "Scan47945.jpg",
       "type": "landscape",
       "alt": "Ranger cabin at field's end, surrounded by forest"
     }

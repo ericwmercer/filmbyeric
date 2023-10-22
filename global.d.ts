@@ -59,6 +59,7 @@ interface PageTitleMultilineProps extends PageTitleProps {
 }
 
 interface PhotoCollectionProps {
+  collectionId: string;
   photos: Photo[];
 }
 
@@ -69,7 +70,7 @@ interface PhotoCollectionData {
 interface PhotoItemProps {
   src: string;
   alt: string;
-  type: PhotoType
+  type: PhotoType;
 }
 
 interface PhotoItemData {

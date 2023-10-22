@@ -1,66 +1,80 @@
 {
   "collections": [
     {
-      "id": "2022-09-norcal",
-      "title": "Northern California 09.22",
+      "id": "2023-04-costarica",
+      "title": "Costa Rica 04.23",
       "cover": {
-        "src": "/images/2022-09-norcal/Scan64543.jpg"
+        "src": "Scan180495.jpg"
+      }
+    },
+    {
+      "id": "2023-01-desert",
+      "title": "Palm Springs & Joshua Tree 01.23",
+      "cover": {
+        "src": "57200003.jpg"
+      }
+    },
+    {
+      "id": "2022-09-sonoma",
+      "title": "Sonoma Coast 09.22",
+      "cover": {
+        "src": "Scan64543.jpg"
       }
     },
     {
       "id": "2022-09-rainier",
       "title": "Mount Rainier NP 09.22",
       "cover": {
-        "src": "/images/2022-09-rainier/Scan64562.jpg"
+        "src": "Scan64562.jpg"
       }
     },
     {
       "id": "2022-05-olympic",
       "title": "Olympic NP 05.22",
       "cover": {
-        "src": "/images/2022-05-olympic/Scan64564.jpg"
+        "src": "Scan64564.jpg"
       }
     },
     {
       "id": "2022-05-gorge",
       "title": "Columbia River Gorge 05.22",
       "cover": {
-        "src": "/images/2022-05-gorge/Scan65077.jpg"
+        "src": "Scan65077.jpg"
       }
     },
     {
       "id": "2022-03-whidbey",
       "title": "Whidbey Island 03.22",
       "cover": {
-        "src": "/images/2022-03-whidbey/Scan65064.jpg"
+        "src": "Scan65064.jpg"
       }
     },
     {
       "id": "2020-10-cascades",
       "title": "North Cascades NP 10.20",
       "cover": {
-        "src": "/images/2020-10-cascades/Scan47941.jpg"
+        "src": "Scan47941.jpg"
       }
     },
     {
       "id": "2020-08-whidbey",
       "title": "Whidbey Island 08.20",
       "cover": {
-        "src": "/images/2020-08-whidbey/Scan47929.jpg"
+        "src": "Scan47929.jpg"
       }
     },
     {
       "id": "2020-05-olympic",
       "title": "Olympic NP 05.20",
       "cover": {
-        "src": "/images/2020-05-olympic/Scan47952.jpg"
+        "src": "Scan47952.jpg"
       }
     },
     {
       "id": "2020-02-socal",
-      "title": "Southern California 02.20",
+      "title": "Joshua Tree & Los Angeles 02.20",
       "cover": {
-        "src": "/images/2020-02-socal/Scan47987.jpg"
+        "src": "Scan47987.jpg"
       }
     }
   ]

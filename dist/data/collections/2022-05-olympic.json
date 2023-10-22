@@ -6,37 +6,37 @@
   "film": "Kodak ColorPlus 200",
   "photos": [
     {
-      "src": "/images/2022-05-olympic/Scan64570.jpg",
+      "src": "Scan64570.jpg",
       "type": "landscape",
       "alt": "Two Adirondack chairs on a small dock extending into Lake Sutherland"
     },
     {
-      "src": "/images/2022-05-olympic/Scan64569.jpg",
+      "src": "Scan64569.jpg",
       "type": "landscape",
       "alt": "Small wooden dock with chairs facing a distant row of lakeside cabins lining the opposite shore"
     },
     {
-      "src": "/images/2022-05-olympic/Scan64568.jpg",
+      "src": "Scan64568.jpg",
       "type": "landscape",
       "alt": "Sweeping view of Lake Crescent on a foggy day, reflected back by the water"
     },
     {
-      "src": "/images/2022-05-olympic/Scan64567.jpg",
+      "src": "Scan64567.jpg",
       "type": "landscape",
       "alt": "Lake Crescent shoreline extending to a distant horizon, reflected by the water"
     },
     {
-      "src": "/images/2022-05-olympic/Scan64566.jpg",
+      "src": "Scan64566.jpg",
       "type": "landscape",
       "alt": "Distant hills lined with trees from across the lake"
     },
     {
-      "src": "/images/2022-05-olympic/Scan64564.jpg",
+      "src": "Scan64564.jpg",
       "type": "landscape",
       "alt": "Elevated view of Lake Crescent from above the tree line"
     },
     {
-      "src": "/images/2022-05-olympic/Scan64563.jpg",
+      "src": "Scan64563.jpg",
       "type": "portrait",
       "alt": "Looking through out-of-focus red-green leaves to Lake Crescent in the distance"
     }
